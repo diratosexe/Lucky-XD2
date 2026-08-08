@@ -15,7 +15,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=d73eeaa4421f02d9",
   PREFIX: getConfig("PREFIX") || "?" || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "tbnmk",
